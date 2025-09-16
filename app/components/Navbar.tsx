@@ -22,8 +22,13 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-8 lg:px-12">
         <div className="flex justify-between items-center h-20">
           
-          {/* Logo con padding del borde */}
-          <div className="flex-shrink-0 pl-4">
+          {/* Logo con imagen y nombre */}
+          <div className="flex items-center flex-shrink-0 pl-4 gap-3">
+            <img
+              src="/logo.jpg"
+              alt="Logo Bella Siluette"
+              className="h-12 w-12 rounded-full object-cover shadow-md border border-stone-200"
+            />
             <h1 className="text-2xl lg:text-3xl font-light tracking-wider">
               <span className="text-stone-800">Bella</span>
               <span className="font-medium text-amber-600 ml-2">Siluette</span>

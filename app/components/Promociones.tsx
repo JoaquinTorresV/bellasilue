@@ -20,22 +20,33 @@ export default function Promociones() {
     {
       id: 'femenino',
       categoria: 'femenino',
-      titulo: 'Experiencia Completa Femenina',
-      descripcion: 'Transformación integral con nuestros servicios más exclusivos',
-      servicios: ['Corte & Styling Premium', 'Tratamiento Capilar Intensivo', 'Coloración Profesional'],
-      precioFinal: '12,500',
-      precioOriginal: '25,000',
-      ahorro: '12,500'
+      titulo: 'Pack Premium Dama',
+      descripcion: 'Disfruta de un paquete completo para dama que incluye corte, masaje capilar, lavado, brushing y masaje corporal.',
+      servicios: [
+        'Corte Dama Premium',
+        'Masaje Dama',
+        'Lavado',
+        'Brushing',
+        'Masaje Corporal'
+      ],
+      precioFinal: '25,000',
+      precioOriginal: '35,000',
+      ahorro: '10,000'
     },
     {
       id: 'masculino',
       categoria: 'masculino',
-      titulo: 'Experiencia Completa Masculina',
-      descripcion: 'Cuidado integral del hombre moderno con técnicas tradicionales',
-      servicios: ['Corte Caballero Premium', 'Afeitado Clásico', 'Cuidado de Barba Especializado'],
-      precioFinal: '13,495',
-      precioOriginal: '26,990',
-      ahorro: '13,495'
+      titulo: 'Pack Premium Varón',
+      descripcion: 'Paquete especial para varón con corte, exfoliación facial, toalla caliente y barba.',
+      servicios: [
+        'Corte Varon Premium',
+        'Exfoliacion Facial',
+        'Toalla Caliente',
+        'Barba'
+      ],
+      precioFinal: '25,000',
+      precioOriginal: '35,000',
+      ahorro: '10,000'
     }
   ];
 

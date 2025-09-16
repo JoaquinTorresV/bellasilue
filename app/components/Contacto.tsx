@@ -2,39 +2,39 @@
 
 export default function Contacto() {
   const handleAgendarCita = () => {
-    window.open('https://wa.me/1234567890?text=Hola, quiero agendar una cita en Bella Siluette', '_blank');
+    window.open('https://wa.me/56999448248?text=Hola, quiero agendar una cita en Bella Siluette', '_blank');
   };
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/1234567890?text=Hola, tengo una consulta sobre Bella Siluette', '_blank');
+    window.open('https://wa.me/56999448248?text=Hola, tengo una consulta sobre Bella Siluette', '_blank');
   };
 
   const handleInstagram = () => {
-    window.open('https://instagram.com/bellasiluette', '_blank');
+    window.open('https://www.instagram.com/bellesiluette/', '_blank');
   };
 
   const handleFacebook = () => {
-    window.open('https://facebook.com/bellasiluette', '_blank');
+    window.open('https://www.facebook.com/bellesiluetteany/?locale=es_LA', '_blank');
   };
 
   const handleGoogleMaps = () => {
-    window.open('https://maps.google.com/?q=Bella+Siluette+Salon', '_blank');
+    window.open('https://www.google.com/maps/dir/San+Mart%C3%ADn+106,+7500945+Santiago,+Regi%C3%B3n+Metropolitana/Belle+Siluette+Any/@-33.4425614,-70.658232,21z/data=!4m13!4m12!1m5!1m1!1s0x9662c5a8a67823cb:0x2c53fc421a3e79bd!2m2!1d-70.6578158!2d-33.4425004!1m5!1m1!1s0x9662c5a8a67823cb:0x2c53fc421a3e79bd!2m2!1d-70.6578158!2d-33.4425004?entry=ttu&g_ep=EgoyMDI1MDkxNS4wIKXMDSoASAFQAw%3D%3D', '_blank');
   };
 
   const contactInfo = [
     {
       title: 'Ubicación',
-      content: 'Av. Principal 123, Centro\nCiudad, País',
+      content: 'San Martín 106, 7500945 Santiago, Región Metropolitana',
       action: handleGoogleMaps,
       actionText: 'Ver en Google Maps'
     },
     {
       title: 'Horarios de Atención',
-      content: 'Lunes - Viernes: 9:00 AM - 7:00 PM\nSábados: 9:00 AM - 5:00 PM\nDomingos: 10:00 AM - 3:00 PM'
+      content: 'Lunes - Viernes: 10:00 AM - 8:00 PM\nSábados: 10:00 AM - 6:00 PM\nDomingos: Cerrado'
     },
     {
       title: 'Contacto Directo',
-      content: '+1 (555) 123-4567\ninfo@bellasiluette.com',
+      content: '(2) 2695 350',
       action: handleWhatsApp,
       actionText: 'Contactar por WhatsApp'
     }

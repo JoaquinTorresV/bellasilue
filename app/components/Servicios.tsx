@@ -12,60 +12,76 @@ interface Servicio {
 
 export default function Servicios() {
   const servicios: Servicio[] = [
-    // Servicios Femeninos
     {
       id: 1,
-      nombre: "Corte & Styling",
-      descripcion: "Corte profesional con técnicas avanzadas y peinado personalizado",
-      precio: "3,750",
-      precioOriginal: "7,500",
-      duracion: "60 min",
+      nombre: "Corte Dama Premium",
+      descripcion: "Corte de cabello dama, con asesoria de imagen y cierre tecnico.",
+      precio: "7,500",
+      precioOriginal: "14,500",
+      duracion: "20 min",
       categoria: "femenino"
     },
     {
       id: 2,
-      nombre: "Tratamiento Capilar",
-      descripcion: "Masaje relajante y tratamiento nutritivo para cabello saludable",
-      precio: "5,000",
-      precioOriginal: "10,000",
-      duracion: "45 min",
+      nombre: "Masaje Dama",
+      descripcion: "Masaje capilar con ampolla o masara hidratante.",
+      precio: "10,000",
+      precioOriginal: "20,000",
+      duracion: "20 min",
       categoria: "femenino"
     },
     {
       id: 3,
-      nombre: "Coloración Premium",
-      descripcion: "Técnicas de color profesionales con productos de alta gama",
-      precio: "8,500",
-      precioOriginal: "17,000",
-      duracion: "120 min",
+      nombre: "Lavado",
+      descripcion: "Lavado capilar, limpieza profunda",
+      precio: "2,500",
+      precioOriginal: "4,500",
+      duracion: "10 min",
       categoria: "femenino"
     },
-    // Servicios Masculinos
     {
       id: 4,
-      nombre: "Corte Caballero",
-      descripcion: "Corte masculino clásico y moderno con acabado impecable",
+      nombre: "Brushing",
+      descripcion: "Secado, tecnica profesional entrega volumen, brillo y movimiento.",
       precio: "5,000",
       precioOriginal: "10,000",
-      duracion: "30 min",
-      categoria: "masculino"
+      duracion: "10 min",
+      categoria: "femenino"
     },
     {
       id: 5,
-      nombre: "Afeitado Clásico",
-      descripcion: "Afeitado tradicional con navaja y tratamiento facial",
-      precio: "4,995",
-      precioOriginal: "9,990",
-      duracion: "45 min",
+      nombre: "Corte Varon Premium",
+      descripcion: "Corte de cabello varon, asesoria de imagen y aplicacion de productos profesionales.",
+      precio: "10,000",
+      precioOriginal: "20,000",
+      duracion: "25 min",
       categoria: "masculino"
     },
     {
       id: 6,
-      nombre: "Cuidado de Barba",
-      descripcion: "Diseño, recorte y acondicionamiento profesional de barba",
-      precio: "3,500",
-      precioOriginal: "7,000",
-      duracion: "30 min",
+      nombre: "Exfoliacion Facial",
+      descripcion: "Exfoliacion facial con productos profesionales",
+      precio: "5,000",
+      precioOriginal: "10,000",
+      duracion: "10 min",
+      categoria: "masculino"
+    },
+    {
+      id: 7,
+      nombre: "Toalla Caliente",
+      descripcion: "Toalla caliente clasica para abrir poros antes del afeitado",
+      precio: "3,000",
+      precioOriginal: "6,000",
+      duracion: "10 min",
+      categoria: "masculino"
+    },
+    {
+      id: 8,
+      nombre: "Barba",
+      descripcion: "Afeitado clasico con navaja y cierre tecnico de poros",
+      precio: "9,990",
+      precioOriginal: "18,990",
+      duracion: "15 min",
       categoria: "masculino"
     }
   ];
