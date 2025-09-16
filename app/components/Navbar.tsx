@@ -14,7 +14,7 @@ export default function Navbar() {
   };
 
   const handleAgendarCita = () => {
-    window.open('https://wa.me/1234567890?text=Hola, quiero agendar una cita en Bella Siluette', '_blank');
+    window.open('https://wa.me/1234567890?text=Hola, quiero agendar una cita en Belle Siluette', '_blank');
   };
 
   return (
@@ -30,7 +30,7 @@ export default function Navbar() {
               className="h-12 w-12 rounded-full object-cover shadow-md border border-stone-200"
             />
             <h1 className="text-2xl lg:text-3xl font-light tracking-wider">
-              <span className="text-stone-800">Bella</span>
+              <span className="text-stone-800">Belle</span>
               <span className="font-medium text-amber-600 ml-2">Siluette</span>
             </h1>
           </div>
